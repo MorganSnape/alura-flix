@@ -1,9 +1,9 @@
-import Tag from "./Tag";
+import TagTitle from "./TagTitle";
 
 export default function SectionInit() {
   return (
-    <article>
-      <Tag text="FRONT END" />
+    <section className="bg-[url('/images/landing.png')] bg-no-repeat bg-cover bg-center  h-screen">
+      <TagTitle text="FRONT END" />
       <div className="flex flex-col gap-y-4">
         <h1>Challenge React</h1>
         <p>
@@ -12,6 +12,6 @@ export default function SectionInit() {
           aplicar todos los conocimientos adquiridos en la formación React.
         </p>
       </div>
-    </article>
+    </section>
   );
 }
