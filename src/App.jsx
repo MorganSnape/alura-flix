@@ -1,11 +1,11 @@
 import Header from "./components/Header.jsx";
-import SectionInit from "./components/SecctionInit.jsx";
+import FirstSection from "./components/FirstSection.jsx";
 
 function App() {
   return (
     <>
       <Header />
-      <SectionInit />
+      <FirstSection />
     </>
   );
 }
