@@ -14,8 +14,8 @@ export default function FirstSection() {
           </p>
         </div>
       </div>
-      <div className="box w-[500px] h-[280px] rounded-3xl overflow-hidden border-2 border-[#6BD1FF]">
-        <img src="/images/landing.png" alt="Box" />
+      <div className="box w-[500px] h-[280px] rounded-3xl overflow-hidden border-4 border-[#6BD1FF]">
+        <img src="/images/landing.png" alt="Box" className="object-cover w-full h-full object-center"/>
       </div>
       <div className="absolute bottom-0 -z-10 h-full w-full overflow-hidden">
         <div className="relative h-full w-full">
