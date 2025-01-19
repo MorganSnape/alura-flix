@@ -3,7 +3,7 @@ import ButtonCards from "./ButtonCards";
 
 export default function Card() {
   return (
-    <article className="flex flex-col items-center w-96 rounded-2xl overflow-hidden border-4 border-[#6BD1FF]">
+    <article className="flex flex-col items-center w-96 rounded-2xl overflow-hidden border-4 border-[#6BD1FF] cursor-pointer">
       <Link to="/">
         <img src="/images/img-card.png" alt="Imagen de perfil " className="object-cover w-full h-full object-center "/>
       </Link>
