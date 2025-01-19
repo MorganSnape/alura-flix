@@ -1,16 +1,14 @@
-import { NavLink, Outlet } from "react-router";
+import { Outlet } from "react-router";
+
+import Header from "../components/Header";
 
 export default function MainLayout() {
   return (
-    <div>
-      <h1>Layout</h1>
-      <nav className="flex gap-4">
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/create-video">Create Video</NavLink>
-      </nav>
+    <>
+      <Header />
       <main>
         <Outlet />
       </main>
-    </div>
+    </>
   );
 }

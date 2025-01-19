@@ -1,7 +1,5 @@
+import FirstSection from "../components/FirstSection";
+
 export default function MainPage() {
-  return (
-    <div>
-      <h1>Main Page</h1>
-    </div>
-  );
+  return <FirstSection />;
 }

@@ -1,11 +1,9 @@
-import Header from "./components/Header.jsx";
-import FirstSection from "./components/FirstSection.jsx";
+import AppRouter from "./routes/index.jsx";
 
 function App() {
   return (
     <>
-      <Header />
-      <FirstSection />
+      <AppRouter />
     </>
   );
 }
