@@ -3,7 +3,7 @@ import TagTitle from "./TagTitle";
 export default function FirstSection() {
   return (
     <section className="h-[calc(100vh-96px)] relative text-white flex flex-row items-center justify-evenly">
-      <div className="flex flex-col items-start gap-y-4 text-center w-1/2">
+      <div className="flex flex-col items-start gap-y-4 text-center w-1/2 z-10">
         <TagTitle text="FRONT END" />
         <div className="flex flex-col items-start gap-2">
           <h1 className="text-3xl">Challenge React</h1>
@@ -14,10 +14,14 @@ export default function FirstSection() {
           </p>
         </div>
       </div>
-      <div className="box w-[500px] h-[280px] rounded-3xl overflow-hidden border-4 border-[#6BD1FF]">
-        <img src="/images/landing.png" alt="Box" className="object-cover w-full h-full object-center"/>
+      <div className="box w-[500px] h-[280px] rounded-3xl overflow-hidden border-4 border-[#6BD1FF] z-10">
+        <img
+          src="/images/landing.png"
+          alt="Box"
+          className="object-cover w-full h-full object-center"
+        />
       </div>
-      <div className="absolute bottom-0 -z-10 h-full w-full overflow-hidden">
+      <div className="absolute bottom-0  h-full w-full overflow-hidden">
         <div className="relative h-full w-full">
           <img
             src="/images/landing.png"

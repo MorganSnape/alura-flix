@@ -1,15 +1,10 @@
-import Button from "../components/Button";
-
-export default function CreateVideo() {
+import Button from "./Button";
+export default function FormularioEditarCard() {
   return (
-    <section className=" bg-[#191919] w-full min-h-screen text-white flex justify-center">
-      <form className="flex flex-wrap justify-center content-start gap-12 gap-y-12 w-4/5 p-4  ">
-        <div className="flex flex-col gap-4 w-full text-center pt-12">
-          <h3 className="w-full  text-3xl font-bold">AGREGAR NUEVO VIDEO</h3>
-          <p>Complete el formulario para crear una nueva tarjeta de video</p>
-        </div>
-
-        <div className="flex flex-col gap-4 w-2/5">
+    <div className="flex flex-col items-center justify-center w-full">
+      <form className="flex flex-col gap-4 w-1/2 border-2 border-[#6BD1FF] rounded-lg p-4 bg-black px-36 py-14">
+        <h3 className="w-full text-white text-3xl font-bold">EDITAR CARD:</h3>
+        <div className="flex flex-col gap-4">
           <label htmlFor="titulo" className="text-white">
             Título
           </label>
@@ -20,20 +15,20 @@ export default function CreateVideo() {
             className="border-2 border-[#6BD1FF] rounded-lg p-2 text-white bg-transparent"
           />
         </div>
-        <div className="flex flex-col gap-4 w-2/5">
+        <div className="flex flex-col gap-4">
           <label htmlFor="titulo" className="text-white">
             Categorias
           </label>
           <select
             name="Categorias"
-            className="border-2 border-[#6BD1FF] rounded-lg p-2 text-white bg-[#191919]"
+            className="border-2 border-[#6BD1FF] rounded-lg p-2 text-white bg-black"
           >
             <option value="Front End">Front End</option>
             <option value="Back End">Back End</option>
             <option value="Innovación y Gestión">Innovación y Gestión</option>
           </select>
         </div>
-        <div className="flex flex-col gap-4 w-2/5">
+        <div className="flex flex-col gap-4">
           <label htmlFor="descripcion" className="text-white bg-transparent">
             Imagen
           </label>
@@ -43,7 +38,7 @@ export default function CreateVideo() {
             className="border-2 border-[#6BD1FF] rounded-lg p-2 text-white bg-transparent"
           />
         </div>
-        <div className="flex flex-col gap-4 w-2/5">
+        <div className="flex flex-col gap-4">
           <label htmlFor="url" className="text-white">
             Video
           </label>
@@ -54,11 +49,11 @@ export default function CreateVideo() {
             className="border-2 border-[#6BD1FF] rounded-lg p-2 text-white bg-transparent"
           />
         </div>
-        <div className="flex flex-row gap-4 w-full justify-start">
+        <div className="flex flex-row gap-4 w-full justify-between">
           <Button text="Guardar" />
           <Button text="Cancelar" />
         </div>
       </form>
-    </section>
+    </div>
   );
 }

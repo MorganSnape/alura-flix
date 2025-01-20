@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="w-full h-auto pt-20  bg-black">
+    <footer className="w-full h-auto mt-20  bg-black">
       <div className="flex flex-col items-center justify-center w-full h-24 border-t-4 border-[#2271d1] ">
         <img
           src="/Logo.svg"
