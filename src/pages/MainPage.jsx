@@ -6,7 +6,7 @@ export default function MainPage() {
   return (
     <>
       <FirstSection />
-      <div  className="bg-black ">
+      <div className="bg-black ">
         <div className="flex flex-col justify-center gap-28 pt-20">
           <CardsContainer />
           <CardsContainer />
