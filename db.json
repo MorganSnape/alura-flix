@@ -1,0 +1,46 @@
+{
+  "videos": [
+    {
+      "id": "1",
+      "titulo": "Aprende HTML y CSS - Curso Desde Cero",
+      "video": "https://youtu.be/XqFR2lqBYPs",
+      "imagen": "https://i.ytimg.com/vi/XqFR2lqBYPs/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCLMP63Mc0WahbyjDWDwEp4QqZ3Ow",
+      "categoria": "Frontend"
+    },
+    {
+      "id": "2",
+      "titulo": "Aprende CSS Flexbox - Curso desde Cero",
+      "video": "https://youtu.be/iwFEc6I8wSA",
+      "imagen": "https://i.ytimg.com/vi/iwFEc6I8wSA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC1fXNPa_V0ADeHAtfO27QF6yDqmQ",
+      "categoria": "Frontend"
+    },
+    {
+      "id": "3",
+      "titulo": "Aprende Node.js y Express - Curso desde Cero",
+      "video": "https://youtu.be/1hpc70_OoAg",
+      "imagen": "https://i.ytimg.com/vi/1hpc70_OoAg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBSUagzSuaKU7Je0WPY4krmVSr_Cg",
+      "categoria": "Backend"
+    },
+    {
+      "id": "4",
+      "titulo": "Curso API CRUD - Node.js, Express, MongoDB y Autenticación",
+      "video": "https://youtu.be/Oa5blAV7Fyg",
+      "imagen": "https://i.ytimg.com/vi/Oa5blAV7Fyg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDdDtTlAVzdhvBNHOIUCWko8LqPDQ",
+      "categoria": "Backend"
+    },
+    {
+      "id": "5",
+      "titulo": "Qué es la Gestión de la Innovación",
+      "video": "https://youtu.be/wNA9fQhmh1U",
+      "imagen": "https://i.ytimg.com/vi/wNA9fQhmh1U/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARhlIGUoZTAP&rs=AOn4CLAz7K79-zTWMl3Y5nWjO_apZrRPdw",
+      "categoria": "Innovación y gestión"
+    },
+    {
+      "id": "6",
+      "titulo": "¿Qué es la innovación?",
+      "video": "https://youtu.be/nEh98yxAojk",
+      "imagen": "https://i.ytimg.com/vi/nEh98yxAojk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB7wTtBGuplyT3luTnUecl7K2XvWw",
+      "categoria": "Innovación y gestión"
+    }
+  ]
+}

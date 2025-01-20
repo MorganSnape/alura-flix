@@ -1,11 +1,9 @@
-import Header from "./components/Header.jsx";
-import SectionInit from "./components/SecctionInit.jsx";
+import AppRouter from "./routes/index.jsx";
 
 function App() {
   return (
     <>
-      <Header />
-      <SectionInit />
+      <AppRouter />
     </>
   );
 }

@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router";
 
 import MainLayout from "../Layouts/MainLayout";
-import MainPage from "../pages/mainPage";
+import MainPage from "../pages/MainPage";
 import CreateVideo from "../pages/CreateVideo";
 
 const AppRouter = () => (
