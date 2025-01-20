@@ -1,6 +1,16 @@
-export default function TagTitle({ text }) {
+import { categoriasColorMapper } from "../libs";
+
+export default function TagTitle({ text, categoria }) {
+  
+  let color = categoriasColorMapper[categoria];
+
+  console.log(categoriasColorMapper);
   return (
-    <h2 className="bg-[#65C8EF] text-white rounded-md font-bold text-xl w-52 py-4 px-2 text-center">
+    <span
+      className="text-white rounded-md font-bold text-xl py-4 px-12 text-center"
+      style={{ backgroundColor: color }}
+    >
       {text}
-    </h2>
-  )}
+    </span>
+  );
+}

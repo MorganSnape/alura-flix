@@ -1,15 +1,34 @@
-import { Link } from "react-router";
 import ButtonCards from "./ButtonCards";
+import { categoriasColorMapper } from "../libs";
 
-export default function Card() {
+export default function Card({ video }) {
+  const titulo = video.titulo;
+  const imagen = video.imagen;
+  const videoUrl = video.video;
+  const categoria = video.categoria;
+
+  const color = categoriasColorMapper[categoria];
+
+  console.log("colorMapper", categoriasColorMapper);
+
   return (
-    <article className="flex flex-col items-center w-96 rounded-2xl overflow-hidden border-4 border-[#6BD1FF] cursor-pointer">
-      <Link to="/">
-        <img src="/images/img-card.png" alt="Imagen de perfil " className="object-cover w-full h-full object-center "/>
-      </Link>
-      <div className=" w-full flex flex-row items-center  border-t-4 border-[#6BD1FF]">
-       <ButtonCards text="BORRAR" />
-       <ButtonCards text="EDITAR" />
+    <article
+      className="flex flex-col items-center w-96 rounded-2xl overflow-hidden border-4 cursor-pointer"
+      style={{ borderColor: color }}
+    >
+      <a href={videoUrl} target="_blank" rel="noreferrer">
+        <img
+          src={imagen}
+          alt={`Imagen de ${titulo}`}
+          className="object-cover w-full h-full object-center "
+        />
+      </a>
+      <div
+        className=" w-full flex flex-row items-center border-t-4"
+        style={{ borderColor: color }}
+      >
+        <ButtonCards text="BORRAR" />
+        <ButtonCards text="EDITAR" />
       </div>
     </article>
   );
