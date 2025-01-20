@@ -1,0 +1,18 @@
+{
+  "videos": [
+    {
+      "id": "1",
+      "titulo": "Nombre del video",
+      "imagen": "url de la imagen",
+      "enlace": "url del video",
+      "categoria": "Front End"
+    },
+    {
+      "id": "2",
+      "titulo": "Nombre del video",
+      "imagen": "url de la imagen",
+      "enlace": "url del video",
+      "categoria": "Front End"
+    }
+  ]
+}
